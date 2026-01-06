@@ -1,2 +1,2 @@
 # useful-tutorials
-tutorails
+tutorials
