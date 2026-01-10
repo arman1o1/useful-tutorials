@@ -71,7 +71,7 @@ print(response.content)
 ## Troubleshooting
 
 | Error | Solution |
-|-------|----------|
+| ------- | ---------- |
 | Model not found | Run `ollama pull <model>` first |
 | Connection refused | Run `ollama serve` in terminal |
 | Check available models | Run `ollama list` |
