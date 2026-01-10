@@ -14,7 +14,7 @@ A guide to install and configure Gemini CLI with secure API key management.
 ## Installation
 
 ```powershell
-npm install -g @google/gemini-cli
+npm install -g @google/gemini-cli@latest
 ```
 
 Verify installation:
@@ -29,7 +29,7 @@ gemini --version
 
 When you run `gemini` for the first time, you'll be prompted to choose an authentication method:
 
-```
+```text
 ? How would you like to authenticate?
 > Login with Google
   Use an API Key
@@ -114,7 +114,7 @@ gemini -p "Your prompt here"
 ## Best Practices
 
 | Practice | Description |
-|----------|-------------|
+| ---------- | ------------- |
 | **Prefer OAuth** | Use Google login when possible - no keys to leak |
 | **Never hardcode keys** | Use environment variables or credential managers |
 | **Rotate keys regularly** | Generate new keys periodically in AI Studio |
@@ -125,7 +125,7 @@ gemini -p "Your prompt here"
 ## Troubleshooting
 
 | Issue | Solution |
-|-------|----------|
+| ------- | ---------- |
 | `GEMINI_API_KEY not found` | Restart terminal after setting env variable |
 | `Invalid API key` | Verify key at [AI Studio](https://aistudio.google.com/apikey) |
 | `npm install fails` | Run PowerShell as Administrator |
