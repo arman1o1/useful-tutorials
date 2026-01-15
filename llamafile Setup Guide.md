@@ -143,4 +143,4 @@ Press `Ctrl+C` in the terminal to stop the server.
 ---
 
 **Official Docs**: [github.com/mozilla-ai/llamafile](https://github.com/mozilla-ai/llamafile)  
-**Model Hub**: [huggingface.co/Mozilla](https://huggingface.co/Mozilla)
+**Model Hub**: [huggingface.co/mozilla-ai](https://huggingface.co/mozilla-ai)
